@@ -35,7 +35,7 @@ instructions for each of them:
     - `SonataDoctrinePhpcrAdminBundle <https://github.com/sonata-project/SonataDoctrinePhpcrAdminBundle/blob/master/Resources/doc/reference/installation.rst>`_
 
 .. note::
-    Don't know which to choose? Most new users prefer SonataDoctrineORMAdmin, to interact with traditional relational databases (MySQL, PostrgreSQL, etc)
+Don't know which to choose? Most new users prefer SonataDoctrineORMAdmin, to interact with traditional relational databases (MySQL, PostrgreSQL, etc)
 
 Enabling SonataAdminBundle and its dependencies
 -----------------------------------------------
@@ -60,7 +60,7 @@ forget to enable SonataAdminBundle too:
         return array(
             // ...
 
-            // Add you dependencies
+            // Add your dependencies
             new Sonata\BlockBundle\SonataBlockBundle(),
             new Sonata\jQueryBundle\SonatajQueryBundle(),
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
@@ -78,14 +78,14 @@ forget to enable SonataAdminBundle too:
     }
 
 .. note::
-    If a dependency is already enabled somewhere in your AppKernel.php,
+If a dependency is already enabled somewhere in your AppKernel.php,
     you don't need to enable it again.
 
 
 Configuring SonataAdminBundle dependencies
 ------------------------------------------
 
-You will need to configure SonataAdminBundle's dependecies. For each of the above
+You will need to configure SonataAdminBundle's dependencies. For each of the above
 mentioned bundles, check their respective installation/configuration instructions
 files to see what changes you have to make to your Symfony2 configuration.
 
@@ -106,7 +106,7 @@ dashboard. To be able to use it, make sure it's enabled on SonataBlockBundle's c
                 # Your other blocks
 
 .. note::
-    Don't worry too much if, at this point, you don't yet understand fully
+Don't worry too much if, at this point, you don't yet understand fully
     what a block is. SonataBlockBundle is a useful tool, but it's not vital
     that you understand right now.
 
@@ -135,7 +135,7 @@ If, at this point or during the installation, you come across any errors, don't 
     -  Read the error message carefully. Try to find out exactly which bundle is causing the error. Is it SonataAdminBundle or one of the dependencies?
     - Make sure you followed all the instructions correctly, for both SonataAdminBundle and it's dependencies
     - Odds are that someone already had the same problem, and it's documented somewhere. Check `Google <http://www.google.com>`_, `Sonata Users Group <https://groups.google.com/group/sonata-users>`_, `Symfony2 Users Group <https://groups.google.com/group/symfony2>`_ and `Symfony Forum <forum.symfony-project.org>`_ to see if you can find a solution.
-    - Still no luck? Try checking the project's open issues on Github.
+    - Still no luck? Try checking the project's open issues on GitHub.
 
 After you have successfully installed the above bundles you need to configure
 SonataAdminBundle for administering your models. All that is needed to quickly
